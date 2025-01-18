@@ -131,9 +131,6 @@
     AddEventHandler('Zaaa:Impound', function ()
         local input = lib.inputDialog('🚨 Vehicle Impound 🚨', {
             {type = 'input', label = 'Reason', description = 'Alasan impound', required = true, min = 4, max = 100},
-            {type = 'number', label = 'Durasi (Jam)', description = 'Berapa jam kendaraan akan diimpound?', required = true, icon = 'clock'},
-            {type = 'number', label = 'Durasi (Menit)', description = 'Berapa menit tambahan?', required = true, icon = 'clock'},
-            {type = 'checkbox', label = 'Hanya Police Yang Dapat Mengambil Kendraan?'},
         })
 
         -------------- BERANTKAN ZONE -----------
