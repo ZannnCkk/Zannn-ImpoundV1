@@ -2,8 +2,8 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 name "Zaaa-Impound"
-description "Gabut"
-author "Apaan"
+description "Zannn-Impound-V1/ESX"
+author "Zannn"
 version "1"
 
 shared_scripts {
