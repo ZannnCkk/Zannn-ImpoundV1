@@ -193,8 +193,8 @@
                                         end
                                     },
                                     {
-                                        title = text,
-                                        description = 'Terkunci Hinga',
+                                        title = 'Ambil Kendraan',
+                                        description = 'Suruh Petugas Untuk Membuka Impound',
                                         disabled = terkunci[v.id],
                                         onSelect = function()
                                         tse('Zaaa:impound:remove', vehicleid)
